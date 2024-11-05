@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/instagram/static/css/main.2228b1bc.css",
+    "main.js": "/instagram/static/js/main.08093598.js",
+    "static/js/453.7de971a0.chunk.js": "/instagram/static/js/453.7de971a0.chunk.js",
+    "index.html": "/instagram/index.html",
+    "main.2228b1bc.css.map": "/instagram/static/css/main.2228b1bc.css.map",
+    "main.08093598.js.map": "/instagram/static/js/main.08093598.js.map",
+    "453.7de971a0.chunk.js.map": "/instagram/static/js/453.7de971a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2228b1bc.css",
+    "static/js/main.08093598.js"
+  ]
+}
