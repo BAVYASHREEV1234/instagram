@@ -1,0 +1,155 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1300px; 
+  margin: 0 auto;
+  padding: 20px 10px;
+  position: sticky;
+  box-sizing: border-box;
+}
+
+.feed {
+  flex-grow: 10; 
+  max-width: 700px; 
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  margin-right: 20px; 
+}
+
+/* Styles for the post and uploaded image */
+.stories, .post {
+  width: 100%; 
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px; 
+  box-sizing: border-box;
+}
+
+.uploaded-image {
+  width: 100%; /* Full width within its container */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 500px; /* Limit the height for larger screens */
+  object-fit: cover; /* Crop and cover the space */
+  border-radius: 12px; /* Smooth rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+}
+
+.post-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  max-height: 500px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .uploaded-image {
+    max-height: 300px; /* Reduce height limit for smaller screens */
+  }
+}
+
+
+/* Placeholder styles */
+.upload-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Set height for the placeholder */
+  border: 2px dashed #ccc; /* Placeholder style */
+  border-radius: 8px; /* Optional: rounded corners */
+  text-align: center;
+}
+
+.post-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+  padding: 10px 0;
+  color: #262626;
+}
+
+.add-comment {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #efefef;
+  padding-top: 8px;
+}
+
+.add-comment input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #262626;
+}
+
+.suggestions {
+  flex: 0 0 300px; 
+  max-width: 300px;
+  margin-left: auto; 
+}
+
+/* General container styling */
+.story-container, .suggestions, .feed {
+  background-color: #fafafa;
+}
+
+/* CSS Reset for consistent base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 10px;
+  }
+
+  .sidebar, .suggestions {
+    display: none;
+  }
+
+  .feed {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+.comments-section {
+  padding-top: 8px;
+  border-top: 1px solid #efefef;
+}
+
+.comments-section p {
+  font-size: 14px;
+  color: #262626;
+  margin-bottom: 8px;
+}
+
+.add-comment input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+
+.profile-pic {
+  width: 40px;       /* Adjust size as needed */
+  height: 40px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover;  /* Ensures the image fits within the circle without distortion */
+}
+

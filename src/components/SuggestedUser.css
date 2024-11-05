@@ -1,0 +1,28 @@
+/* src/components/SuggestedUser.css */
+
+.suggested-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.suggested-user p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.follow-button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.follow-button:hover {
+    background-color: #007bb5;
+}

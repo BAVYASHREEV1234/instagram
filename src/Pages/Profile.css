@@ -1,0 +1,164 @@
+/* Profile Page Container */
+.profile-container {
+    width: 80%;
+    margin: auto;
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Header Styling */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  .profile-info {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  /* Username Styling */
+  .username {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #007bb5;
+  }
+  
+  /* Stats and Bio */
+  .profile-stats {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .profile-bio {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Content Section */
+  .profile-content {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .no-posts {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Modal Styling */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 300px;
+    max-width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .modal-content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .modal-content label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .modal-content button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:nth-child(1) {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+  }
+  
+  .modal-content button:nth-child(1):hover {
+    background-color: #007bb5;
+  }
+  
+  .modal-content button:nth-child(2) {
+    background-color: #f1f1f1;
+    color: #333;
+    border: none;
+  }
+  
+  .modal-content button:nth-child(2):hover {
+    background-color: #e0e0e0;
+  }
+  
