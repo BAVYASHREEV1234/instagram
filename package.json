@@ -2,7 +2,7 @@
   "name": "instagram-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BAVYASHREEV1234.github.io/instagram/",
+  "homepage": "https://bavyashreev1234.github.io/instagram/",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
